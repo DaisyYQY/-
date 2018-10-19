@@ -1,0 +1,23 @@
+/*去掉所有默认margin和padding值*/
+*{
+    margin:0;
+    padding:0;
+    /*font-size: 0;也可以使元素变成行块元素*/
+}
+/*去掉a标签下划线*/
+a{
+    text-decoration: none;;
+}
+/*去掉列表前缀*/
+ul,ol{
+    list-style: none;
+}
+/*ie低版本浏览器img标签自带有边框*/
+img{
+    border:0 none;
+}
+/*去掉input标签边框及点击上去的蓝色效果*/
+input{
+    border:none;
+    outline:none;
+}
